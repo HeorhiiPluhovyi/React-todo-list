@@ -10,13 +10,13 @@ const defaultList: TodoItem[] = [
   {
     id: 0,
     taskName: 'HTML',
-    taskDescription: 'The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.',
+    taskDescription: 'The HyperText Markup Language.',
     isCompleated: false,
   },
   {
     id: 1,
     taskName: 'CSS',
-    taskDescription: 'SS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.',
+    taskDescription: 'CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.',
     isCompleated: false,
   },
   {
