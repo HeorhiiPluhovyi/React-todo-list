@@ -1,0 +1,39 @@
+.todoPanel {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.todoPanel_input {
+  box-shadow: none;
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 90%;
+}
+
+.todoPanel_input:focus-visible {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.todoPanel button {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  display: block;
+  color: rgb(133, 133, 133);
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+}
+
+.todoPanel button:hover {
+  color: #333;
+  border-color: rgb(133, 133, 133);
+}

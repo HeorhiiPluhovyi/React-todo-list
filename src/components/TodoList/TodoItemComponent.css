@@ -1,0 +1,101 @@
+.todoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.todoItemButtons {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.todoComponentButton {
+  padding: 5px;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.todoComponentButton {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.todoComponentButton:hover {
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.todoItemIform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todoItemName {
+  font-size: 1.17em;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: none;
+}
+
+.todoItemName:focus-visible {
+  outline: none;
+}
+
+.todoItemDescription {
+  font-size: 1em;
+  box-sizing: border-box;
+  border: none;
+  height: 100%;
+}
+
+.todoItemDescription:focus-visible {
+  outline: none;
+  color: #000;
+}
+
+.todoItemIform h3 {
+  cursor: pointer;
+}
+
+.dellButton {
+  color: red;
+}
+
+.dellButton:hover {
+  box-shadow: 0px 15px 20px rgb(175, 4, 4, 0.4);
+  background-color: rgb(248, 42, 42);
+}
+
+.editButton {
+  color: rgb(255, 174, 0);
+}
+
+.editButton:hover {
+  box-shadow: 0px 15px 20px rgba(198, 136, 3, 0.4);
+  background-color: rgb(255, 174, 0);
+}
+
+.compleateButton {
+  color: #2EE59D;
+}
+
+.compleateButton:hover {
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  background-color: #2EE59D;
+}
